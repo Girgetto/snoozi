@@ -1,0 +1,151 @@
+html,
+body {
+  overflow: hidden;
+  max-height: 100vh;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#sky {
+  background-color: #205e78;
+  z-index: -5;
+  position: absolute;
+  width: 200vw;
+  height: 100%;
+}
+
+.transition {
+  transition: 3s;
+}
+
+#sheep {
+  height: 120px;
+}
+
+.sheep-init {
+  transform: translate(100vw);
+}
+
+.sheep-middle {
+  transform: translate(0);
+}
+
+.sheep-end {
+  transform: translate(-100vw);
+}
+
+.hills {
+  width: 300%;
+  height: 150%;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid black;
+  background-color: #46775d;
+  transform: translateY(40%);
+}
+
+#hill-one {
+  z-index: -1;
+}
+
+#hill-two {
+  z-index: -2;
+  transform: translate(-300px, 35%);
+  opacity: 0.5;
+}
+
+#hill-three {
+  z-index: -3;
+  transform: translate(300px, 30%);
+  background-color: #46775d;
+  opacity: 0.3;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.196);
+  color: white;
+}
+
+/* https://codepen.io/piyushgupta092/pen/NWxJRWg */
+.moon {
+  background-color: red;
+  position: absolute;
+  margin: auto;
+  top: 10%;
+  right: 20%;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0 0 white;
+  opacity: 0.5;
+}
+
+.numbers {
+  border-radius: 50%;
+  padding: 10px 20px;
+  font-size: 24px;
+  margin: 4px;
+  width: 57px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#arrow {
+  background-color: #009593;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  width: 37px;
+  height: 37px;
+  padding: 10px;
+  margin: 14px;
+}
+
+#cross {
+  background-color: #b73b62;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  position: relative;
+  margin: 4px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+input {
+  border-radius: 20px;
+  height: 20px;
+  padding: 4px 8px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snoozi</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Snoozi - Rick & Morty app of Ep.4 Season 6 - Night Family"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar"><h1>Snoozi</h1></nav>
+      <img
+        id="sheep"
+        class="sheep-init transition"
+        src="./img/sheep.png"
+        alt="sheep"
+      />
+      <input id="value" />
+      <div class="pad">
+        <div class="flex">
+          <button value="1" class="numbers">1</button>
+          <button value="2" class="numbers">2</button>
+          <button value="3" class="numbers">3</button>
+        </div>
+        <div class="flex">
+          <button value="4" class="numbers">4</button>
+          <button value="5" class="numbers">5</button>
+          <button value="6" class="numbers">6</button>
+        </div>
+        <div class="flex">
+          <button value="7" class="numbers">7</button>
+          <button value="8" class="numbers">8</button>
+          <button value="9" class="numbers">9</button>
+        </div>
+        <div class="flex align-center">
+          <button id="cross">x</button>
+          <button value="0" class="numbers">0</button>
+          <button id="arrow">→</button>
+        </div>
+      </div>
+      <div class="hills" id="hill-one"></div>
+      <div class="hills" id="hill-two"></div>
+      <div class="hills" id="hill-three"></div>
+      <div id="sky"></div>
+      <div class="moon"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
