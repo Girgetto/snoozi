@@ -111,32 +111,25 @@ button:hover {
 }
 
 #arrow {
-  background-color: #009593;
-  border-radius: 50%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  width: 37px;
-  height: 37px;
-  padding: 10px;
-  margin: 14px;
-  color: black;
-}
-
-#cross {
-  background-color: #b73b62;
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 57px;
+  padding: 10px;
+  color: black;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#cross {
+  width: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin: 4px;
-  color: black;
+  transform: scale(0.6);
+  cursor: pointer;
 }
 
 .align-center {
